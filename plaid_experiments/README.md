@@ -12,11 +12,9 @@ pip install -r requirements.txt
 
 PLAID is freely available from
 <https://figshare.com/articles/dataset/PLAID_-_A_Voltage_and_Current_Measurement_Dataset_for_Plug_Load_Appliance_Identification_in_Households/10084619?file=18183113>
-(Medico et al., *Sci. Data* 2020). The figshare page hosts both
-**submetered** (per-appliance) and **aggregate** (whole-house) recordings;
-**this pipeline uses the submetered variant**. Download the submetered
-zip and `metadata_submetered.json`, then unpack so that the per-appliance
-CSVs and the metadata file sit directly under `./data/PLAID/`:
+(Medico et al., *Sci. Data* 2020). Download the submetered recordings and
+`metadata_submetered.json`, then unpack so that the per-appliance CSVs and
+the metadata file sit directly under `./data/PLAID/`:
 
 ```
 ./data/PLAID/
