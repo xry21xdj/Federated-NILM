@@ -11,9 +11,9 @@ pip install -r requirements.txt
 ```
 
 PLAID is freely available from
-<https://figshare.com/articles/dataset/PLAID_2018/11605074> (Medico et al.,
-*Sci. Data* 2020). Place the unzipped CSV recordings and `metadata_submetered.json`
-under `./data/PLAID/`.
+<https://figshare.com/articles/dataset/PLAID_-_A_Voltage_and_Current_Measurement_Dataset_for_Plug_Load_Appliance_Identification_in_Households/10084619?file=18183113>
+(Medico et al., *Sci. Data* 2020). Place the unzipped CSV recordings and
+`metadata_submetered.json` under `./data/PLAID/`.
 
 ## Quick start
 
